@@ -1,5 +1,4 @@
 -P DROP 
--p tcp --dport 53 -j ACCEPT # DNS
 -p udp --dport 53 -j ACCEPT # DNS
 -d 194.58.88.173 -j ACCEPT # olympiads.ru
 -d 84.201.160.168 -j ACCEPT # ejudge.msk.ru
